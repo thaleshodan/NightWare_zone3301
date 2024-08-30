@@ -1,8 +1,11 @@
 ## NightWare Zone
 
-![vraids](https://github.com/user-attachments/assets/35331d59-0cdc-424e-b69c-18daa94eea17)
 
-O ransomware é uma ameaça real e crescente que pode ter consequências devastadoras para qualquer organização. 
+O ransomware é uma ameaça real e crescente que pode ter consequências devastadoras para qualquer organização.
+
+
+![asassaasas](https://github.com/user-attachments/assets/01d4150a-66e5-4820-8974-4b2422377ee4)
+
 Proteger seus dados e sistemas é mais do que uma necessidade; é uma prioridade crítica para a continuidade e a resiliência do seu negócio.
 Invista na segurança cibernética hoje e defenda-se contra o inimigo silencioso que pode estar à espreita.
 
