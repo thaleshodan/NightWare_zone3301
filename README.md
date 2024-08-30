@@ -3,7 +3,7 @@
 
 O ransomware é uma ameaça real e crescente que pode ter consequências devastadoras para qualquer organização.
 
-[!WARNING]
+>[!WARNING]
 > Tenha cuidado no momento de testar esse código e compila-lo,quaisquer danos feitos ao seu computador se mantem por sua resposnsabilidade e consciencia. Tenha cuidado com suas ações.
 
 
