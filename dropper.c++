@@ -13,9 +13,9 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-#include <base64.h> // Supondo que você tenha uma biblioteca de Base64 instalada
+#include <base64.h> // Supose did you have a lib of base64
 
-// Função para rodar um comando e retornar a saída
+// Function to run a code and return a array
 std::string run_subprocess(const std::string &command) {
     std::array<char, 128> buffer;
     std::string result;
