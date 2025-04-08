@@ -42,7 +42,7 @@ Nota de resgate:
 
 Estrutura do projeto
 
-     ```NightWareZone/```
+     NightWareZone/
      ├── src/
      │   ├── main.cpp
      │   ├── encryption.cpp
