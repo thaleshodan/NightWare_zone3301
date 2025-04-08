@@ -8,7 +8,11 @@ Este projeto não deve ser utilizado em sistemas reais. Apenas para fins acadêm
 Não nos responsabilizamos por qualquer dano causado.
 Execute apenas em ambientes virtuais, sem dados reais, e sem conexão à internet.
 
-Funcionalidades
+
+
+## Funcionalidades
+
+
 
 Infecção inicial:
 
