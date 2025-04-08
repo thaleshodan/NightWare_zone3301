@@ -14,7 +14,7 @@ Execute apenas em ambientes virtuais, sem dados reais, e sem conexão à interne
 
 
 
-Infecção inicial:
+## Infecção inicial:
 
     Phishing (e-mails simulados com anexos maliciosos)
 
@@ -24,7 +24,7 @@ Infecção inicial:
 
     Ataques de força bruta em sistemas com senhas fracas
 
-Execução e persistência:
+## Execução e persistência:
 
     Escalada de privilégios
 
@@ -32,19 +32,19 @@ Execução e persistência:
 
     Desativação de antivírus e firewall
 
-Criptografia de arquivos:
+## Criptografia de arquivos:
 
     Criptografia com AES ou RSA
 
     Renomeação de arquivos com extensões como .locked ou .encrypted
 
-Nota de resgate:
+## Nota de resgate:
 
     Exibição de mensagem com instruções de pagamento (simulado)
 
     Contagem regressiva para exclusão (simulada)
 
-Estrutura do projeto
+## Estrutura do projeto
 
      NightWareZone/
      ├── src/
@@ -58,7 +58,7 @@ Estrutura do projeto
 
 
 
-Requisitos
+## Requisitos
 
     C++17 ou superior
 
