@@ -71,15 +71,22 @@ Execute apenas em ambientes virtuais, sem dados reais, e sem conexão à interne
 ``` g++ src/*.cpp -o nightware -std=c++17 ```
 
 
-Testes seguros
 
-Use máquinas virtuais isoladas
 
-Preferencialmente offline
 
-Ambientes como Cuckoo, REMnux ou FLARE-VM são recomendados
 
-Licença
 
-Código licenciado sob a MIT License.
-Uso restrito a fins legais, educacionais e de pesquisa.
+  ## Testes seguros
+
+  Use máquinas virtuais isoladas
+
+  Preferencialmente offline
+
+  Ambientes como Cuckoo, REMnux ou FLARE-VM são recomendados
+
+
+
+  ## Licença
+
+  Código licenciado sob a MIT License.
+  Uso restrito a fins legais, educacionais e de pesquisa.
