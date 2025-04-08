@@ -42,14 +42,17 @@ Nota de resgate:
 
 Estrutura do projeto
 
-NightWareZone/
-├── src/
-│   ├── main.cpp
-│   ├── encryption.cpp
-│   ├── payload.cpp
-│   └── utils.h
-├── README.md
-└── LICENSE
+     ```NightWareZone/```
+     ├── src/
+     │   ├── main.cpp
+     │   ├── encryption.cpp
+     │   ├── payload.cpp
+     │   └── utils.h
+     ├── README.md
+    └── LICENSE
+
+
+
 
 Requisitos
 
