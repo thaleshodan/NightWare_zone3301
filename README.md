@@ -1,50 +1,50 @@
-NightWare Zone é um projeto open source em C++ desenvolvido com finalidade educacional.
-Seu objetivo é demonstrar, de forma controlada, o funcionamento de um ransomware moderno: desde a infecção até a criptografia de arquivos e exibição da nota de resgate.
+NightWare Zone is an open source C++ project developed for educational purposes.
+Its goal is to demonstrate, in a controlled manner, how modern ransomware works: from infection to file encryption and display of the ransom note.
 
-Este projeto não deve ser utilizado em sistemas reais. Apenas para fins acadêmicos, de pesquisa ou estudo em ambientes isolados.
+This project should not be used in real systems. Only for academic, research or study purposes in isolated environments.
 
 >[!WARNING]
-> O uso e execução deste código é de total responsabilidade do usuário.
-Não nos responsabilizamos por qualquer dano causado.
-Execute apenas em ambientes virtuais, sem dados reais, e sem conexão à internet.
+> The use and execution of this code is the sole responsibility of the user.
+We are not responsible for any damage caused.
+Run only in virtual environments, without real data, and without an internet connection.
 
 
 
-## Funcionalidades
+## Features
 
 
 
-## Infecção inicial:
+## initial  Infection :
 
-    Phishing (e-mails simulados com anexos maliciosos)
+    Phishing (simulated emails with malicious attachments)
 
-    Exploração de falhas em sistemas desatualizados
+    Exploiting flaws in outdated systems
 
-    Downloads de arquivos simuladamente infectados
+    Downloading simulated infected files
 
-    Ataques de força bruta em sistemas com senhas fracas
-
+    Brute force attacks on systems with weak passwords
+    
 ## Execução e persistência:
 
-    Escalada de privilégios
+    escalation of privilege
 
-    Propagação lateral em rede
+    lateral network propagation
 
-    Desativação de antivírus e firewall
+    Disabling antivirus and firewall
 
-## Criptografia de arquivos:
+## File encryption:
 
-    Criptografia com AES ou RSA
+       Encryption with AES or RSA
 
-    Renomeação de arquivos com extensões como .locked ou .encrypted
+       Renaming files with extensions such as .locked or .encrypted
 
-## Nota de resgate:
+## Ramsom Note:
 
-    Exibição de mensagem com instruções de pagamento (simulado)
+     Display of message with payment instructions (simulated)
 
-    Contagem regressiva para exclusão (simulada)
+     Countdown to deletion (simulated)
 
-## Estrutura do projeto
+## Project Structure
 
      NightWareZone/
      ├── src/
@@ -58,15 +58,15 @@ Execute apenas em ambientes virtuais, sem dados reais, e sem conexão à interne
 
 
 
-## Requisitos
+## requeriments
 
-    C++17 ou superior
+     C++17 our better
 
-    Sistema Linux, Windows ou macOS
+     Linux, Windows or macOS system
 
-    Máquina virtual (recomendado: VirtualBox ou VMware)
-
-## Compilação (exemmplo)
+     Virtual machine (recommended: VirtualBox or VMware)
+     
+## Compilers (exemmplo)
 
 ``` g++ src/*.cpp -o nightware -std=c++17 ```
 
@@ -76,17 +76,17 @@ Execute apenas em ambientes virtuais, sem dados reais, e sem conexão à interne
 
 
 
-  ## Testes seguros
+  ## Safe testing
 
-  Use máquinas virtuais isoladas
+    Use isolated virtual machines
 
-  Preferencialmente offline
+    Preferably offline
+ 
+    Environments such as Cuckoo, REMnux or FLARE-VM are recommended
 
-  Ambientes como Cuckoo, REMnux ou FLARE-VM são recomendados
+## License
+
+Code licensed under the MIT License.
+Use restricted to legal, educational and research purposes.
 
 
-
-  ## Licença
-
-  Código licenciado sob a MIT License.
-  Uso restrito a fins legais, educacionais e de pesquisa.
